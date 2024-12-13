@@ -1,0 +1,5 @@
+2024-12-13 12:04:52.421 | ERROR    | src.routers.auth_router:login:45 - User doesn't exists! please signup
+NoneType: None
+2024-12-13 12:05:17.368 | INFO     | src.routers.auth_router:signup:35 - User yashG has been created successfully!
+2024-12-13 12:06:58.765 | WARNING  | src.routers.auth_router:signup:22 - User doesn't exists! please signup
+2024-12-13 12:07:13.174 | INFO     | src.routers.auth_router:signup:35 - User ayushG has been created successfully!

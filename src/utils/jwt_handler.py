@@ -6,7 +6,7 @@ JWT_SECRET_KEY = getenv("JWT_SECRET_KEY", "your_secret_key_here")
 ALGORITHM = "HS256"
 
 
-def get_jwt_token(data: dict, expire_delta: timedelta = 6) -> str:
+def get_jwt_token(data: dict, expire_delta: timedelta = timedelta(days=6)) -> str:
     to_encode = data.copy()
 
     expire = datetime.now() + expire_delta
