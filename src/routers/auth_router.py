@@ -14,6 +14,8 @@ from src.schemas.user_schema import UserOut, UserIn
 
 auth_routes = APIRouter(prefix="/api/auth", tags=["Auth Routers"])
 
+oAuthBear = OAuth2PasswordBearer(tokenUrl="/api/auth/login")
+
 
 @auth_routes.post("/register", status_code=status.HTTP_201_CREATED)
 async def signup(new_user: UserIn, db: Session = Depends(get_db)):
@@ -53,3 +55,19 @@ async def login(form: OAuth2PasswordRequestForm = Depends(), db: Session = Depen
 
     logger.info(f"User '{is_user_exist.username}' logged in successfully.")
     return {"access_token": access_token, "token_type": "bearer"}
+
+
+def get_user(token: str = Depends(oAuthBear), db: Session = Depends(get_db)) -> UserOut:
+    payload = verify_jwt_token(token)
+
+    if not payload:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=payload["error"])
+
+    email = payload.get("sub")
+    user = db.query(User).filter(User.email == email).first()  # type:ignore
+
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+
+    return UserOut(id=user.id, username=user.username, email=user.email, is_admin=user.is_admin,
+                   created_at=user.created_at, updated_at=user.updated_at)
