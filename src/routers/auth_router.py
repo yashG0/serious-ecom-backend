@@ -1,5 +1,3 @@
-from timeit import default_timer
-
 from fastapi import APIRouter, HTTPException, status
 from fastapi.params import Depends
 from sqlalchemy.orm import Session
@@ -61,13 +59,25 @@ def get_user(token: str = Depends(oAuthBear), db: Session = Depends(get_db)) -> 
     payload = verify_jwt_token(token)
 
     if not payload:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=payload["error"])
+        logger.warning(f"Token is invalid!")
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid or expired token")
 
     email = payload.get("sub")
     user = db.query(User).filter(User.email == email).first()  # type:ignore
 
     if user is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User does not found")
 
     return UserOut(id=user.id, username=user.username, email=user.email, is_admin=user.is_admin,
                    created_at=user.created_at, updated_at=user.updated_at)
+
+
+def is_admin_user(current_user: UserOut = Depends(get_user)) -> UserOut:
+    if not current_user.is_admin:
+        logger.warning(f"User {current_user.username} is not an Admin")
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="You do not have admin privileges",
+        )
+    logger.info(f"Admin access granted to {current_user.username}")
+    return current_user

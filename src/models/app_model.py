@@ -78,7 +78,7 @@ class Cart(Base):
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid4)
     user_id = Column(UUID(as_uuid=True), ForeignKey("users.id", ondelete="CASCADE"), unique=True)
 
-    # relationship
+    # relationship ->
     user = relationship("User", back_populates="cart")
     cart_items = relationship("CartItem", back_populates="cart", lazy="select")
 
@@ -91,6 +91,6 @@ class CartItem(Base):
     product_id = Column(UUID(as_uuid=True), ForeignKey("products.id", ondelete="CASCADE"))
     quantity = Column(Integer, nullable=False, default=1)
 
-    # relationship
+    # relationship ->
     cart = relationship("Cart", back_populates="cart_items")
     product = relationship("Product", lazy="joined")

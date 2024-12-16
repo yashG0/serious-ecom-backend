@@ -12,10 +12,16 @@ class UserOut(BaseModel):
     updated_at: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class UserIn(BaseModel):
-    username:str = Field(min_length=3, max_length=22)
-    email:EmailStr
-    password:str = Field(min_length=6, max_length=64)
+    username: str = Field(min_length=3, max_length=22)
+    email: EmailStr
+    password: str = Field(min_length=6, max_length=64)
+
+
+class UpdatePassword(BaseModel):
+    old_password: str
+    new_password: str
+    confirm_password: str

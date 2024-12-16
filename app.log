@@ -4,3 +4,215 @@ NoneType: None
 2024-12-13 12:06:58.765 | WARNING  | src.routers.auth_router:signup:22 - User doesn't exists! please signup
 2024-12-13 12:07:13.174 | INFO     | src.routers.auth_router:signup:35 - User ayushG has been created successfully!
 2024-12-13 12:09:50.663 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 12:26:57.242 | INFO     | src.routers.auth_router:login:56 - User 'yashG' logged in successfully.
+2024-12-13 18:43:17.277 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 18:43:21.124 | ERROR    | src.routers.admin_router:is_user_admin:15 - User yashG is not admin!
+NoneType: None
+2024-12-13 18:43:21.125 | INFO     | src.routers.admin_router:is_user_admin:16 - User yashG is an Admin.
+2024-12-13 18:44:01.893 | ERROR    | src.routers.admin_router:is_user_admin:15 - User yashG is not admin!
+NoneType: None
+2024-12-13 18:44:17.741 | ERROR    | src.routers.admin_router:is_user_admin:15 - User yashG is not admin!
+2024-12-13 18:44:27.821 | WARNING  | src.routers.admin_router:is_user_admin:15 - User yashG is not admin!
+2024-12-13 18:54:54.377 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 18:58:08.094 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 19:00:29.067 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 19:24:00.045 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 19:24:43.315 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 19:25:56.319 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 19:26:06.551 | WARNING  | src.routers.auth_router:is_admin_user:77 - User yashG is not an Admin
+2024-12-13 19:26:22.218 | WARNING  | src.routers.auth_router:is_admin_user:77 - User yashG is not an Admin
+2024-12-13 19:34:29.989 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:35:12.921 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:35:12.941 | INFO     | src.routers.admin_router:add_new_category:29 - New Category Electronics has been created successfully!
+2024-12-13 19:37:19.467 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:37:19.468 | ERROR    | src.routers.admin_router:add_new_category:31 - Failed to create new category Electronics
+2024-12-13 19:39:08.511 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:39:21.920 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:40:27.928 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:40:27.940 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Clothing has been created successfully!
+2024-12-13 19:40:46.105 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:40:46.111 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Home & Kitchen has been created successfully!
+2024-12-13 19:41:04.398 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:41:04.407 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Beauty & Health has been created successfully!
+2024-12-13 19:41:20.439 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:41:20.447 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Sports & Outdoors has been created successfully!
+2024-12-13 19:41:38.231 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:41:38.238 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Toys & Games has been created successfully!
+2024-12-13 19:41:55.463 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:41:55.471 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Books has been created successfully!
+2024-12-13 19:42:10.970 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:42:10.979 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Automotive has been created successfully!
+2024-12-13 19:42:26.576 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:42:26.583 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Grocery has been created successfully!
+2024-12-13 19:42:40.896 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:42:40.903 | INFO     | src.routers.admin_router:add_new_category:30 - New Category Furniture has been created successfully!
+2024-12-13 19:42:47.247 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:42:52.396 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 19:42:56.232 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 20:04:42.031 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 20:04:42.326 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 20:04:42.581 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 20:04:42.845 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 20:04:43.097 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 20:04:43.342 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 21:35:43.633 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-13 21:37:03.864 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-13 21:44:05.622 | INFO     | src.routers.product_router:add_new_product:27 - Failed to create new product laptop s33
+2024-12-13 21:45:18.591 | INFO     | src.routers.product_router:add_new_product:27 - Failed to create new product laptop s33
+2024-12-13 21:51:30.686 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 15:56:22.348 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 16:05:12.604 | ERROR    | src.routers.auth_router:login:45 - User doesn't exists! please signup
+NoneType: None
+2024-12-14 16:06:03.014 | INFO     | src.routers.auth_router:signup:35 - User yashG has been created successfully!
+2024-12-14 16:06:17.701 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 16:06:39.551 | WARNING  | src.routers.auth_router:is_admin_user:77 - User yashG is not an Admin
+2024-12-14 16:07:17.772 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-14 16:08:06.568 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-14 16:08:06.580 | INFO     | src.routers.admin_router:add_new_category:31 - New Category Electronics has been created successfully!
+2024-12-14 16:10:03.163 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-14 16:10:18.848 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-14 16:10:18.860 | INFO     | src.routers.admin_router:add_new_product:64 - Product Laptop s22 has been successfully created!
+2024-12-14 16:27:38.351 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 16:28:23.651 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-14 16:28:23.662 | INFO     | src.routers.admin_router:remove_product:101 - Product Laptop s22 has been removed successfully!
+2024-12-14 16:28:28.779 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-14 16:28:28.781 | WARNING  | src.routers.admin_router:remove_product:96 - Product 96da976e-6a4b-4618-b649-1b021769310a doesn't exist! please verify product id.
+2024-12-14 16:33:16.038 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 16:33:19.158 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-14 16:33:19.174 | INFO     | src.routers.admin_router:add_new_product:70 - Product sam s10 has been successfully created!
+2024-12-14 16:37:30.429 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 16:41:51.548 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 17:04:02.146 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:06:12.298 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:07:49.190 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:07:52.985 | WARNING  | src.routers.cart_router:get_cart:19 - User yashG's cart does not exist!
+2024-12-14 17:07:57.666 | INFO     | src.routers.cart_router:add_cart:32 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a has been created!
+2024-12-14 17:08:57.334 | INFO     | src.routers.cart_router:add_cart:34 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:11:52.622 | INFO     | src.routers.cart_router:add_cart:35 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:13:29.449 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:13:30.946 | INFO     | src.routers.cart_router:add_cart:25 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:15:40.664 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:15:42.717 | INFO     | src.routers.cart_router:add_cart:26 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:16:58.703 | INFO     | src.routers.cart_router:add_cart:26 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:16:59.459 | INFO     | src.routers.cart_router:add_cart:26 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:16:59.814 | INFO     | src.routers.cart_router:add_cart:26 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:16:59.973 | INFO     | src.routers.cart_router:add_cart:26 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:17:00.134 | INFO     | src.routers.cart_router:add_cart:26 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:17:26.627 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:17:29.629 | INFO     | src.routers.cart_router:add_cart:26 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:21:09.313 | INFO     | src.routers.cart_router:add_cart:26 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:23:42.063 | INFO     | src.routers.cart_router:add_cart:26 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:29:01.066 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:32:16.183 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:32:18.441 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:32:19.103 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:32:19.431 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:32:19.623 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:32:19.796 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:32:19.990 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:32:29.205 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:32:31.432 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:32:32.881 | INFO     | src.routers.cart_router:add_cart:35 - Cart bc151ed6-ceab-4b69-8042-9bf7eb20b40e already exists!
+2024-12-14 17:33:32.858 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:34:14.117 | INFO     | src.routers.cart_router:get_cart:21 - Cart has been successfully retrieved for user 589807c2-d7aa-4633-9c85-fd065bbe928a!
+2024-12-14 17:34:32.173 | INFO     | src.routers.cart_router:get_cart:21 - Cart has been successfully retrieved for user yashG!
+2024-12-14 17:34:47.853 | INFO     | src.routers.cart_router:add_cart:29 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a already exists!
+2024-12-14 17:37:27.895 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:37:32.413 | INFO     | src.routers.cart_router:remove_cart:54 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a has been removed successfully!
+2024-12-14 17:37:58.553 | INFO     | src.routers.cart_router:remove_cart:49 - Cart yashG does not exist!
+2024-12-14 17:38:05.339 | INFO     | src.routers.cart_router:add_cart:37 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a has been created!
+2024-12-14 17:38:08.317 | INFO     | src.routers.cart_router:remove_cart:54 - User yashG's cart has been removed successfully!
+2024-12-14 17:55:19.794 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 17:55:27.876 | INFO     | src.routers.cart_router:add_item_to_cart:66 - Cart yashG does not exist!
+2024-12-14 17:55:35.159 | INFO     | src.routers.cart_router:get_cart:19 - Cart yashG does not exist!
+2024-12-14 17:55:39.244 | INFO     | src.routers.cart_router:add_cart:37 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a has been created!
+2024-12-14 17:55:43.486 | WARNING  | src.routers.cart_router:add_item_to_cart:71 - Product 3fa85f64-5717-4562-b3fc-2c963f66afa6 doesn't exist!
+2024-12-14 17:55:48.927 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 18:06:28.064 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 18:06:32.566 | INFO     | src.routers.cart_router:get_cart_items:68 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:12:02.583 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 18:12:09.355 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 18:15:43.260 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 18:15:50.134 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 18:16:08.023 | INFO     | src.routers.cart_router:add_cart_item:99 - Product 1dc1624d-8c6f-4f4f-b169-0f732d09b51b added to cart for user yashG
+2024-12-14 18:16:57.190 | INFO     | src.routers.cart_router:get_cart_items:68 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:17:33.666 | INFO     | src.routers.cart_router:get_cart_items:68 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:17:48.155 | INFO     | src.routers.cart_router:get_cart_items:68 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:17:48.759 | INFO     | src.routers.cart_router:get_cart_items:68 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:19:03.400 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 18:21:21.844 | INFO     | src.routers.cart_router:get_cart_items:68 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:22:36.889 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 18:22:40.263 | INFO     | src.routers.cart_router:get_cart_items:68 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:26:53.877 | INFO     | src.routers.cart_router:get_cart:21 - Cart has been successfully retrieved for user yashG!
+2024-12-14 18:31:53.730 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 18:31:57.547 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:37:45.089 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 18:37:50.686 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 18:38:04.074 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:38:19.469 | INFO     | src.routers.cart_router:edit_cart_item:124 - Cart item 0e37380f-47ed-4599-a9ef-6b28d35861e3 has been updated successfully!
+2024-12-14 18:38:31.872 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 18:45:07.563 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 18:45:15.731 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:45:29.786 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 18:45:56.899 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:47:40.640 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 18:47:46.083 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:48:48.050 | INFO     | src.routers.cart_router:remove_cart_item:146 - Cart item 0e37380f-47ed-4599-a9ef-6b28d35861e3 has been removed successfully!
+2024-12-14 18:48:55.310 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 18:49:00.719 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 19:50:56.027 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-14 19:50:57.490 | WARNING  | src.routers.order_router:create_order:18 - Cart is empty for user yashG
+2024-12-14 19:51:04.038 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 19:51:09.064 | INFO     | src.routers.cart_router:get_cart:22 - Cart has been successfully retrieved for user yashG!
+2024-12-14 19:51:26.100 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-14 19:51:41.951 | INFO     | src.routers.cart_router:add_cart_item:100 - Product 1dc1624d-8c6f-4f4f-b169-0f732d09b51b added to cart for user yashG
+2024-12-14 19:51:47.912 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-14 19:55:38.712 | INFO     | src.routers.order_router:create_order:37 - Order has been created for user yashG
+2024-12-16 09:12:52.699 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:18:30.235 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:19:27.261 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:19:51.108 | INFO     | src.routers.cart_router:get_cart:20 - Cart yashG does not exist!
+2024-12-16 09:19:58.125 | INFO     | src.routers.cart_router:add_cart:38 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a has been created!
+2024-12-16 09:20:08.464 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-16 09:20:23.521 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-16 09:20:38.553 | INFO     | src.routers.cart_router:add_cart_item:100 - Product 1dc1624d-8c6f-4f4f-b169-0f732d09b51b added to cart for user yashG
+2024-12-16 09:20:55.204 | INFO     | src.routers.order_router:create_order:39 - Order has been created for user yashG
+2024-12-16 09:23:03.642 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:27:04.633 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:33:12.765 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:44:10.082 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:47:06.949 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:47:16.122 | INFO     | src.routers.cart_router:get_cart:20 - Cart yashG does not exist!
+2024-12-16 09:53:42.765 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 09:54:12.628 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
+2024-12-16 09:54:24.403 | INFO     | src.routers.cart_router:get_cart:20 - Cart yashG does not exist!
+2024-12-16 09:54:34.573 | ERROR    | src.routers.cart_router:add_cart:41 - Failed to create cart 589807c2-d7aa-4633-9c85-fd065bbe928a
+2024-12-16 09:54:52.488 | INFO     | src.routers.cart_router:add_cart:38 - Cart 589807c2-d7aa-4633-9c85-fd065bbe928a has been created!
+2024-12-16 09:55:18.845 | INFO     | src.routers.cart_router:add_cart_item:100 - Product 1dc1624d-8c6f-4f4f-b169-0f732d09b51b added to cart for user yashG
+2024-12-16 09:55:25.494 | INFO     | src.routers.cart_router:get_cart_items:69 - Cart items has been successfully retrieved for user yashG!
+2024-12-16 09:55:32.914 | INFO     | src.routers.order_router:get_orders:55 - No orders found for user yashG
+2024-12-16 09:55:53.803 | INFO     | src.routers.order_router:create_order:45 - Order has been created for user yashG
+2024-12-16 09:57:02.027 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:09:20.749 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 10:09:29.839 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:09:50.788 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-16 10:09:56.060 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:10:02.920 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:10:03.659 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:13:24.474 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 10:13:34.001 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:13:46.392 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-16 10:13:59.780 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-16 10:14:25.799 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-16 10:15:01.318 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 10:15:05.344 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:15:19.996 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-16 10:15:19.999 | INFO     | src.routers.admin_router:update_status_in_order:125 - Order 50b90462-255e-40e2-aa8f-bdccc1c15985 has been updated!
+2024-12-16 10:16:00.739 | INFO     | src.routers.auth_router:login:54 - User 'yashG' logged in successfully.
+2024-12-16 10:16:05.597 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:16:16.054 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-16 10:16:16.061 | INFO     | src.routers.admin_router:update_status_in_order:125 - Order 50b90462-255e-40e2-aa8f-bdccc1c15985 has been updated!
+2024-12-16 10:16:19.041 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:16:26.674 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
+2024-12-16 10:16:26.680 | INFO     | src.routers.admin_router:update_status_in_order:125 - Order 50b90462-255e-40e2-aa8f-bdccc1c15985 has been updated!
+2024-12-16 10:16:29.051 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
