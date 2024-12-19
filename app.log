@@ -216,3 +216,4 @@ NoneType: None
 2024-12-16 10:16:26.674 | INFO     | src.routers.auth_router:is_admin_user:82 - Admin access granted to yashG
 2024-12-16 10:16:26.680 | INFO     | src.routers.admin_router:update_status_in_order:125 - Order 50b90462-255e-40e2-aa8f-bdccc1c15985 has been updated!
 2024-12-16 10:16:29.051 | INFO     | src.routers.order_router:get_orders:58 - 1 orders retrieved for user yashG
+2024-12-16 10:24:22.719 | INFO     | src.routers.product_router:all_products:16 - All products has been fetched successfully!
